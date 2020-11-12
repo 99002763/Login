@@ -12,10 +12,10 @@ public class RecyclerActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_recycler);
-        languagesData = new String[]{"english","tamil","kannada","malayalam","telugu"};
+        //languagesData = new String[]{"english","tamil","kannada","malayalam","telugu"};
         RecyclerView recyclerView = findViewById(R.id.recyclerView);
-        MyAdapter adapter = new MyAdapter(this,languagesData);
+       /* MyAdapter adapter = new MyAdapter(this,languagesData);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
-        recyclerView.setAdapter(adapter);
+        recyclerView.setAdapter(adapter);*/
     }
 }

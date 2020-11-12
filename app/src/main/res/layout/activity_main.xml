@@ -47,6 +47,7 @@
         android:layout_marginStart="23dp"
         android:onClick="clickHandler"
         android:text="login"
+        app:layout_constraintTop_toBottomOf="@id/buttonlogin"
         app:layout_constraintBaseline_toBaselineOf="@+id/buttoncancel"
         app:layout_constraintStart_toStartOf="parent"
         android:layout_marginLeft="23dp" />
